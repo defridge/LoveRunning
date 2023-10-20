@@ -120,13 +120,13 @@ main {
 /* Main content and wording*/
 #reasons {
     width: 90%;
-    margin: 20px auto;
+    margin: 20px auto
 }
 
 #reasons h2 {
+    font-size: 280%;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 280%;
 }
 
 #benefits-physical>div,
