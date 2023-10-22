@@ -95,6 +95,57 @@ main {
     /* Make main element take up all surplus space */
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sign up styles*/
+
+#singup {
+    background-image: url("../images/signup-image.webp");
+    background-position: 75%;
+    flex-grow: 1;
+    background-size: cover;
+    padding: 20px 10% 0 10%;
+}
+
+
+#signup-form {
+    color:#ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#singup h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color:#fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    background-color: #454b1b;
+    color:#fafafa;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px 15px 32px;
+    border-radius: 2px;
 }
 
 /* Hero section */
@@ -282,6 +333,29 @@ hr {
     #photos {
         column-count: 3;
     }
+
+     #singup {
+            background-position: center;
+            position: relative;
+        }
+
+    #signup-form {
+            position: absolute;
+            max-width: 400px;
+            left: 10%;
+            top: 150px;
+        }
+
+    .text-input:hover {
+            border-color: #f16c6b;
+        }
+
+     .join-button:hover {
+            background-color: #fafafa;
+            color: #454b1b;
+        }
+
+
 }
 
 /* Media query for laptop and larger screens (992px and up) */
